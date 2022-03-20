@@ -1,9 +1,71 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+:root {
+  --main-bg-color: #1f2937;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
-    font-family: 'Roboto', Helvetica, sans-serif;
+  font-family: "Roboto", Helvetica, sans-serif;
+}
+.button {
+  display: inline-block;
+  text-decoration: none;
+  color: #F9FAF8;
+  font-weight: 600;
+  padding: .3em 1.2em;
+  border-radius: .3em;
+}
+.button.primary {
+  background-color: #3882f6;
+  margin: 1em 0;
+}
+header {
+  background-color: var(--main-bg-color);
+  padding: 1em 14em;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+header nav h2 {
+  color: #F9FAF8;
+  font-size: 1.5em;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+}
+header nav a {
+  text-decoration: none;
+  color: #E5E7EB;
+}
+header .header-info {
+  padding: 4em 0;
+  display: flex;
+  gap: 4em;
+  justify-content: center;
+  align-items: center;
+}
+header .header-text {
+  color: #E5E7EB;
+  font-weight: 300;
+  font-size: 1.2em;
+  width: 50%;
+}
+header .header-text h1 {
+  color: #F9FAF8;
+  font-weight: 900;
+  font-size: 3em;
+}
+header .header-image {
+  width: 60%;
+}
+header .header-image img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
 }
