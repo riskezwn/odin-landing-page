@@ -1,7 +1,3 @@
-:root {
-  --main-bg-color: #1f2937;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -15,15 +11,18 @@ body {
   text-decoration: none;
   color: #F9FAF8;
   font-weight: 600;
-  padding: .3em 1.2em;
+  padding: .3em 1.4em;
   border-radius: .3em;
 }
 .button.primary {
   background-color: #3882f6;
   margin: 1em 0;
 }
+.button.outlined {
+  border: 2px solid #F9FAF8;
+}
 header {
-  background-color: var(--main-bg-color);
+  background-color: #1f2937;
   padding: 1em 14em;
 }
 header nav {
@@ -104,7 +103,7 @@ main .quote {
   color: #1f2937;
   font-size: 2em;
   background-color: #E5e7eB;
-  padding: 3em 12em;
+  padding: 3em 16em;
   flex-direction: column;
   display: flex;
   justify-content: center;
@@ -115,6 +114,22 @@ main .quote cite {
   font-size: 18px;
   font-style: normal;
   font-weight: bold;
+}
+main .actioncall {
+  padding: 5em 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .actioncall .container {
+  font-size: 1.2em;
+  border-radius: .5em;
+  gap: 8em;
+  display: flex;
+  align-items: center;
+  padding: 2em 8em;
+  color: #F9FAF8;
+  background-color: #3882f6;
 }
 footer {
   text-align: center;
