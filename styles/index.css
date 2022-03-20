@@ -116,3 +116,9 @@ main .quote cite {
   font-style: normal;
   font-weight: bold;
 }
+footer {
+  text-align: center;
+  padding: 2em 0;
+  color: #E5E7EB;
+  background-color: #1f2937;
+}
