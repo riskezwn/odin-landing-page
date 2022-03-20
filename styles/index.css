@@ -99,3 +99,20 @@ main .info-img img {
   height: 200px;
   margin-bottom: 1em;
 }
+main .quote {
+  font-style: italic;
+  color: #1f2937;
+  font-size: 2em;
+  background-color: #E5e7eB;
+  padding: 3em 12em;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .quote cite {
+  margin-left: auto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: bold;
+}
